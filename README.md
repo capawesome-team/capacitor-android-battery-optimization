@@ -87,14 +87,7 @@ As long as the project is available as [Sponsorware](#sponsorware), the project 
    ```
    @capawesome-team:registry=https://npm.pkg.github.com
    ```
-1. Install the package with **Capacitor 3**:
-
-   ```bash
-   npm install @capawesome-team/capacitor-android-battery-optimization@0.0.2
-   npx cap sync
-   ```
-
-   Install the package with **Capacitor 4**:
+1. Install the package:
 
    ```bash
    npm install @capawesome-team/capacitor-android-battery-optimization
