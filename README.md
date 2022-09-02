@@ -48,6 +48,16 @@ A working example can be found here: [robingenz/capacitor-plugin-demo](https://g
 | -------------------------- |
 | <img src="" width="324" /> |
 
+## Roadmap
+
+This plugin is still **under development**. We have already received feature requests. This is our approximate roadmap:
+
+| Q4 2022                               |
+| ------------------------------------- |
+| - Extended Android Custom ROM support |
+
+⚠️ **Disclaimer**: This roadmap does not represent a commitment, guarantee, obligation or promise to deliver any product or feature, or to deliver any product and feature by any particular date, and is intended to outline the general development plans. You should not rely on this roadmap to make any sponsorship decision.
+
 ## FAQ
 
 1. **Which platforms are supported?**  
