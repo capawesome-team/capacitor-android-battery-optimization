@@ -46,7 +46,7 @@ A working example can be found here: [robingenz/capacitor-plugin-demo](https://g
 
 | Android                    |
 | -------------------------- |
-| <img src="" width="324" /> |
+| <img src="https://user-images.githubusercontent.com/13857929/188197064-c042a970-f555-40b8-a19d-d05fc2443b5a.gif" width="324" /> |
 
 ## Roadmap
 
