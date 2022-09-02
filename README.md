@@ -94,6 +94,14 @@ As long as the project is available as [Sponsorware](#sponsorware), the project 
    🆘 If you have any problems please [contact us by mail](mailto:support@capawesome.io) or [create a GitHub discussion](https://docs.github.com/en/discussions/quickstart#creating-a-new-discussion) in this repository.  
    ⚠️ **Attention**: Be careful not to disclose your npm auth token! If you have any questions (CI configuration etc.) please let us know.
 
+### Android
+
+This API requires the following permissions be added to your `AndroidManifest.xml` before the `application` tag:
+
+```xml
+<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+```
+
 ## Configuration
 
 No configuration required for this plugin.
