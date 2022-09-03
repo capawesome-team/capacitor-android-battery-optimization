@@ -99,11 +99,13 @@ As long as the project is available as [Sponsorware](#sponsorware), the project 
 
 ### Android
 
-This API requires the following permissions be added to your `AndroidManifest.xml` before the `application` tag:
+This API requires the following permissions be added to your `AndroidManifest.xml` before the `application` tag if you want to request direct exemption from Power Management features:
 
 ```xml
 <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 ```
+
+⚠️ **Attention**: Google Play policies prohibit apps from requesting direct exemption from Power Management features in Android 6.0+ (Doze and App Standby) unless the core function of the app is adversely affected. [Source](https://developer.android.com/training/monitoring-device-state/doze-standby.html#support_for_other_use_cases)
 
 ## Configuration
 
@@ -191,6 +193,8 @@ requestIgnoreBatteryOptimization() => Promise<void>
 ```
 
 Requests the battery optimization ignore permission.
+This method needs the `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` manifest permission.
+Use this method only if your app meets an acceptable use case (see Google Play Policy). 
 
 Only available for Android.
 
