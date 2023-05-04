@@ -172,7 +172,7 @@ requestIgnoreBatteryOptimization() => Promise<void>
 
 Requests the battery optimization ignore permission.
 This method needs the `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` manifest permission.
-Use this method only if your app meets an acceptable use case (see Google Play Policy). 
+Use this method only if your app meets an acceptable use case (see Google Play Policy).
 
 Only available for Android.
 
